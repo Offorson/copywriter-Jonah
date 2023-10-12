@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@1,100;1,400;1,900&family=Rubik&family=Sofia+Sans+Condensed:ital,wght@1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+/* body,
+html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+/* background-image: linear-gradient(#e4b5f0, #0d430d); */
+
+/* Full height */
+/* height: 100%; */
+
+/* Center and scale the image nicely */
+/* background-position: center; */
+/* background-repeat: no-repeat; */
+/* background-size: cover; */
+/* } */
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  font-family: "Bebas Neue", sans-serif;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background-color: green;
+  color: white;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  font-weight: bolder;
+  color: white;
+}
+
+.oforkile {
+  color: green;
+  margin-top: 40px;
+}
+
+.jonah {
+  color: black;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+
+  color: white;
+}
+
+.copywriter-div {
+  background-color: green;
+  width: 80%;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 50px;
+}
+
+.introduction-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.preview-div {
+  display: flex;
+  margin-top: 25px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  /* border: 3px solid red; */
+  justify-content: center;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.profile-photo {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.preview-text {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.clicks {
+  width: 80%;
+  /* border: 3px solid red; */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 20px;
+  /* justify-content: space-between; */
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+#Portfolio {
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  color: white;
+  background-color: green;
+  border: none;
+  padding: 10px;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+.about {
+  width: 240px;
+  margin-top: 20px;
+}
+
+.about-photo {
+  width: 220px;
+}
+
+em {
+  font-family: "Sofia Sans Condensed", sans-serif;
+  font-size: 20px;
+}
+
+.testimonials {
+  width: 240px;
+  margin-top: 20px;
+}
+
+.testimonials-photo {
+  width: 220px;
+}
+
+.services {
+  width: 240px;
+  margin-top: 20px;
+}
+
+.services-photo {
+  width: 220px;
+}
+
+.hidden {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  /* transform: all 4s; */
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.first2-clicks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.second2-clicks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  border-top: 1px solid black;
+  color: black;
+  font-family: "Sofia Sans Condensed", sans-serif;
+  margin-bottom: 5px;
+}
+
+.footer {
+  border-top: 1.5px solid black;
+  margin-top: 2px;
+}
+
+.writings {
+  margin-top: 8px;
+}
+
+.button {
+  float: right;
+  color: white;
+  background-color: black;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Sofia Sans Condensed", sans-serif;
+}

@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Nunito&family=Roboto:ital,wght@1,100;1,400;1,900&family=Rubik&family=Sofia+Sans+Condensed:ital,wght@1,1;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  /* background-size: cover; */
+}
+
+body {
+  background-color: #3e0907;
+}
+
+header {
+  background-image: url(An\ exterior\ vie\ 01.png);
+  background-color: #3e0907;
+  background-repeat: no-repeat;
+  /* background-size: 100vh; */
+  height: 100vh;
+  /* width: 100vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* vertical-align: middle; */
+  text-align: center;
+}
+
+h1 {
+  font-family: "Fjalla One", sans-serif;
+  color: white;
+}
+
+h2 {
+  font-family: "Sofia Sans Condensed", sans-serif;
+  font-size: 50px;
+  color: blueviolet;
+  margin-top: 20px;
+}
+
+h3 {
+  font-family: "Nunito", sans-serif;
+  color: white;
+  margin-top: 10px;
+}
+
+ul{
+  list-style-type: disc;
+  /* list-style: disc; */
+}
+
+li{
+  margin-top: 8px;
+}
+
+.navbar {
+  overflow: hidden;
+  /* background-color: #3e0907; */
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  font-family: "Bebas Neue", sans-serif;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background-color: #3e0907;
+  color: white;
+}
+
+/* .entry-text-div{
+align-items: center;
+justify-content: center;
+vertical-align: middle;
+} */
+
+.text-div {
+  text-align: left;
+  width: 70%;
+  color: white;
+  margin-top: 20px;
+  font-family: "Rubik", sans-serif;
+  font-size: 25px;
+  /* display: flex; */
+}
+
+.spicy-jambalaya {
+  width: 100vh;
+  margin-top: 20px;
+}
+
+.end{
+  margin-bottom: 30px;
+}
+
+footer{
+  border-top: 1px solid blueviolet;
+  color: white;
+  font-family: "Sofia Sans Condensed", sans-serif;
+  margin-bottom: 5px;
+}
+
+.footer{
+  border-top: 1.5px solid blueviolet;
+  margin-top: 2px;
+}
+
+.writings{
+  margin-top: 8px;
+}
+
+.button{
+  float: right;
+  color: white;
+  background-color: blueviolet;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Sofia Sans Condensed", sans-serif;
+}
