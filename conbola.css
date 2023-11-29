@@ -5,6 +5,12 @@
   overflow: auto;
 }
 
+.emailme{
+  background-color: red;
+  color: white;
+  float: right;
+}
+
 header {
   background-image: url(bladeless\ fan.png);
   background-color: white;
@@ -63,11 +69,11 @@ h2 {
 
 .text-div {
   text-align: left;
-  width: 70%;
+  width: 80%;
   color: black;
   margin-top: 20px;
   font-family: "Rubik", sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   /* display: flex; */
 }
 

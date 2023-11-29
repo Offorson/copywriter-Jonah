@@ -5,6 +5,12 @@
   overflow: auto;
 }
 
+.emailme {
+  background-color: red;
+  color: white;
+  float: right;
+}
+
 .material-symbols-outlined {
   font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
 }

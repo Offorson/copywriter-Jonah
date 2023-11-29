@@ -7,6 +7,7 @@ const homeHeader = document.getElementById("Home");
 const serviceHeader = document.getElementById("services");
 const portfolioHeader = document.getElementById("portfolio");
 const testimonialHeader = document.getElementById('testimonial')
+const foldableHeader = document.getElementById('foldables')
 
 //////////////
 // const scrollUp = Document.querySelector('.button')
@@ -68,6 +69,13 @@ function portfolioScrollup() {
 }
 function testimonialScrollup() {
   testimonialHeader.scrollIntoView({
+    behavior: "smooth",
+    block: "end",
+    inline: "nearest",
+  });
+}
+function foldableScrollup() {
+  foldableHeader.scrollIntoView({
     behavior: "smooth",
     block: "end",
     inline: "nearest",

@@ -5,6 +5,12 @@
   overflow: auto;
 }
 
+.emailme {
+  background-color: red;
+  color: white;
+  float: right;
+}
+
 /* iframe{
     width: auto;
     height: auto;

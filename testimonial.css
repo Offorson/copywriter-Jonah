@@ -5,6 +5,12 @@
   overflow: auto;
 }
 
+.emailme {
+  background-color: red;
+  color: white;
+  float: right;
+}
+
 .hidden {
   opacity: 0;
   transition: all 2s;
